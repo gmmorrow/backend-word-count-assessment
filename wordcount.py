@@ -63,7 +63,7 @@ def print_top(filename):
     for word in sorted_items[:20]:
         print(str(word[0]) + ' : ' + str(word[1]))
     return
-
+#
 
 # This basic command line argument parsing code is provided and calls
 # the print_words() and print_top() functions which you must implement.
